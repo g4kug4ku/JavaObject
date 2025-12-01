@@ -1,0 +1,9 @@
+package sample2_Z1;
+
+class Sample2_Z1_1u {
+	public static void main (String[] args) {
+		
+		System.out.println("これは文字コードがUTF-8のコードです");
+		
+	}
+}
