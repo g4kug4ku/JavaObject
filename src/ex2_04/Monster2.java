@@ -39,9 +39,7 @@ public class Monster2 {
 	}
 	
 	Monster2(String trainer, String name, int lv) {
-		this("(unknown)", name);
-		this.trainer = trainer;
-		this.name = name;
+		this(trainer, name);
 		this.lv = lv;
 		if (lv <= 1) {
 			this.lv = 1;
